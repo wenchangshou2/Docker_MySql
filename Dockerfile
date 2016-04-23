@@ -15,7 +15,6 @@ RUN sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysq
 
 # Install database
 ADD ./create_db4.1.1111.sql /var/db/create_db.sql
-ADD ./create_point4.1.1111.sql /var/db/create_point.sql
 
 # Set Standard settings
 ENV user student
