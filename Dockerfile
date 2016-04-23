@@ -20,7 +20,7 @@ ADD ./create_point4.1.1111.sql /var/db/create_point.sql
 # Set Standard settings
 ENV user student
 ENV password secret
-ENV url file:/var/db/database.sql
+ENV url file:/var/db/create_db.sql
 ENV right READ
 
 # Install starting script
